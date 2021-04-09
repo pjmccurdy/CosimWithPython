@@ -1,0 +1,31 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building SimpleOptimizerV2_exec 0.1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+Downloading: http://cpswtng_archiva:8080/repository/internal/org/webgme/guest/simplecontroller/SimpleController/0.1.0-SNAPSHOT/maven-metadata.xml
+Downloading: http://cpswtng_archiva:8080/repository/snapshots/org/webgme/guest/simplecontroller/SimpleController/0.1.0-SNAPSHOT/maven-metadata.xml
+[WARNING] Could not transfer metadata org.webgme.guest.simplecontroller:SimpleController:0.1.0-SNAPSHOT/maven-metadata.xml from/to archiva.internal (http://cpswtng_archiva:8080/repository/internal/): Connect to cpswtng_archiva:8080 [cpswtng_archiva/127.0.0.1] failed: Connection refused (Connection refused)
+[WARNING] Could not transfer metadata org.webgme.guest.simplecontroller:SimpleController:0.1.0-SNAPSHOT/maven-metadata.xml from/to archiva.snapshots (http://cpswtng_archiva:8080/repository/snapshots/): Connect to cpswtng_archiva:8080 [cpswtng_archiva/127.0.0.1] failed: Connection refused (Connection refused)
+[WARNING] Failure to transfer org.webgme.guest.simplecontroller:SimpleController:0.1.0-SNAPSHOT/maven-metadata.xml from http://cpswtng_archiva:8080/repository/internal/ was cached in the local repository, resolution will not be reattempted until the update interval of archiva.internal has elapsed or updates are forced. Original error: Could not transfer metadata org.webgme.guest.simplecontroller:SimpleController:0.1.0-SNAPSHOT/maven-metadata.xml from/to archiva.internal (http://cpswtng_archiva:8080/repository/internal/): Connect to cpswtng_archiva:8080 [cpswtng_archiva/127.0.0.1] failed: Connection refused (Connection refused)
+[WARNING] Failure to transfer org.webgme.guest.simplecontroller:SimpleController:0.1.0-SNAPSHOT/maven-metadata.xml from http://cpswtng_archiva:8080/repository/snapshots/ was cached in the local repository, resolution will not be reattempted until the update interval of archiva.snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.webgme.guest.simplecontroller:SimpleController:0.1.0-SNAPSHOT/maven-metadata.xml from/to archiva.snapshots (http://cpswtng_archiva:8080/repository/snapshots/): Connect to cpswtng_archiva:8080 [cpswtng_archiva/127.0.0.1] failed: Connection refused (Connection refused)
+Downloading: http://cpswtng_archiva:8080/repository/internal/org/cpswt/fedmanager-host/0.6.0-SNAPSHOT/maven-metadata.xml
+Downloading: http://cpswtng_archiva:8080/repository/snapshots/org/cpswt/fedmanager-host/0.6.0-SNAPSHOT/maven-metadata.xml
+[WARNING] Could not transfer metadata org.cpswt:fedmanager-host:0.6.0-SNAPSHOT/maven-metadata.xml from/to archiva.internal (http://cpswtng_archiva:8080/repository/internal/): Connect to cpswtng_archiva:8080 [cpswtng_archiva/127.0.0.1] failed: Connection refused (Connection refused)
+[WARNING] Could not transfer metadata org.cpswt:fedmanager-host:0.6.0-SNAPSHOT/maven-metadata.xml from/to archiva.snapshots (http://cpswtng_archiva:8080/repository/snapshots/): Connect to cpswtng_archiva:8080 [cpswtng_archiva/127.0.0.1] failed: Connection refused (Connection refused)
+[WARNING] Failure to transfer org.cpswt:fedmanager-host:0.6.0-SNAPSHOT/maven-metadata.xml from http://cpswtng_archiva:8080/repository/internal/ was cached in the local repository, resolution will not be reattempted until the update interval of archiva.internal has elapsed or updates are forced. Original error: Could not transfer metadata org.cpswt:fedmanager-host:0.6.0-SNAPSHOT/maven-metadata.xml from/to archiva.internal (http://cpswtng_archiva:8080/repository/internal/): Connect to cpswtng_archiva:8080 [cpswtng_archiva/127.0.0.1] failed: Connection refused (Connection refused)
+[WARNING] Failure to transfer org.cpswt:fedmanager-host:0.6.0-SNAPSHOT/maven-metadata.xml from http://cpswtng_archiva:8080/repository/snapshots/ was cached in the local repository, resolution will not be reattempted until the update interval of archiva.snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.cpswt:fedmanager-host:0.6.0-SNAPSHOT/maven-metadata.xml from/to archiva.snapshots (http://cpswtng_archiva:8080/repository/snapshots/): Connect to cpswtng_archiva:8080 [cpswtng_archiva/127.0.0.1] failed: Connection refused (Connection refused)
+Downloading: http://cpswtng_archiva:8080/repository/internal/org/cpswt/cpswt-core/0.6.0-SNAPSHOT/maven-metadata.xml
+[WARNING] Could not transfer metadata org.cpswt:cpswt-core:0.6.0-SNAPSHOT/maven-metadata.xml from/to archiva.internal (http://cpswtng_archiva:8080/repository/internal/): Connect to cpswtng_archiva:8080 [cpswtng_archiva/127.0.0.1] failed: Connection refused (Connection refused)
+[INFO] 
+[INFO] --- exec-maven-plugin:1.5.0:java (default-cli) @ SimpleOptimizerV2_exec ---
+12:50:13.801 [org.cpswt.host.FederationManagerHostApp.main()] INFO  org.cpswt.hla.FederationManager - No COA definitions were provided!
+12:50:13.808 [org.cpswt.host.FederationManagerHostApp.main()] INFO  org.cpswt.hla.FederationManager - No COA selections were provided!
+12:50:13.810 [org.cpswt.host.FederationManagerHostApp.main()] INFO  org.cpswt.hla.FederationManager - No specific COA-selection was specified for execution!
+12:50:13.813 [org.cpswt.host.FederationManagerHostApp.main()] INFO  org.cpswt.hla.FederationManager - No COAs are used in this experiment.
+
+-------------------------------------------------------------------
+GMS: address=vagrant-49066, cluster=SimpleOptimizerV21, physical address=172.16.119.10:59042
+-------------------------------------------------------------------
+12:50:24.253 [org.cpswt.host.FederationManagerHostApp.main()] INFO  org.cpswt.host.FederationManagerHostApp - Server online at 0.0.0.0:8083 ...
+12:50:45.814 [Thread-3] INFO  org.cpswt.hla.FederationManager - Current_time = 0.0 and step = 1.0 and requested_time = 1.0

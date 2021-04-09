@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <copy todir="/home/vagrant/Desktop/Projects/SimpleAdderWithPython/SimpleOptimizerV2/SimpleOptimizerV2_generated/RandNumGen/target/conf" overwrite="true">
+    <fileset dir="/home/vagrant/Desktop/Projects/SimpleAdderWithPython/SimpleOptimizerV2/SimpleOptimizerV2_generated/RandNumGen/conf"/>
+  </copy>
+  <copy todir="/home/vagrant/Desktop/Projects/SimpleAdderWithPython/SimpleOptimizerV2/SimpleOptimizerV2_generated/RandNumGen/target" overwrite="true">
+    <fileset file="/home/vagrant/Desktop/Projects/SimpleAdderWithPython/SimpleOptimizerV2/SimpleOptimizerV2_generated/RandNumGen/RTI.rid"/>
+  </copy>
+</target>
+</project>

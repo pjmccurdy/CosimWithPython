@@ -1,0 +1,26 @@
+{
+  "federateTypesAllowed": [
+    "RandNumGen",
+    "SimpleController"
+  ],
+  "expectedFederates": [
+    {
+      "federateType": "RandNumGen",
+      "count": 1
+    },
+    {
+      "federateType": "SimpleController",
+      "count": 1
+    }
+  ],
+  "lateJoinerFederates": [
+    {
+      "federateType": "RandNumGen",
+      "count": 0
+    },
+    {
+      "federateType": "SimpleController",
+      "count": 0
+    }
+  ]
+}

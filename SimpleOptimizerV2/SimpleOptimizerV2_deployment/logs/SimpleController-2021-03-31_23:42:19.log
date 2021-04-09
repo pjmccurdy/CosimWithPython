@@ -1,0 +1,39 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building SimpleOptimizerV2_exec 0.1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.5.0:java (default-cli) @ SimpleOptimizerV2_exec ---
+
+-------------------------------------------------------------------
+GMS: address=vagrant-13183, cluster=SimpleOptimizerV21, physical address=172.16.119.10:57232
+-------------------------------------------------------------------
+23:42:59.929 [org.webgme.guest.simplecontroller.SimpleController.main()] INFO  org.webgme.guest.simplecontroller.SimpleController - waiting on readyToPopulate...
+23:43:00.193 [org.webgme.guest.simplecontroller.SimpleController.main()] INFO  org.webgme.guest.simplecontroller.SimpleController - ...synchronized on readyToPopulate
+23:43:00.196 [org.webgme.guest.simplecontroller.SimpleController.main()] INFO  org.webgme.guest.simplecontroller.SimpleController - waiting on readyToRun...
+23:43:00.451 [org.webgme.guest.simplecontroller.SimpleController.main()] INFO  org.webgme.guest.simplecontroller.SimpleController - ...synchronized on readyToRun
+23:43:00.457 [org.webgme.guest.simplecontroller.SimpleController.main()] INFO  org.webgme.guest.simplecontroller.SimpleController - started logical time progression
+23:43:00.459 [org.webgme.guest.simplecontroller.SimpleController.main()] INFO  org.webgme.guest.simplecontroller.SimpleController - waiting to receive SimTime...
+23:43:01.465 [org.webgme.guest.simplecontroller.SimpleController.main()] INFO  org.webgme.guest.simplecontroller.SimpleController - waiting to receive SimTime...
+holder received as: 1,9
+Received random numbers as1, 9
+23:43:01.470 [org.webgme.guest.simplecontroller.SimpleController.main()] INFO  org.webgme.guest.simplecontroller.SimpleController - Received random numbers as 1, 9
+Here is the result
+null
+null
+0.0
+null
+23:43:02.003 [org.webgme.guest.simplecontroller.SimpleController.main()] INFO  org.webgme.guest.simplecontroller.SimpleController - Sent sendNum interaction with null
+23:43:02.004 [org.webgme.guest.simplecontroller.SimpleController.main()] ERROR org.cpswt.hla.InteractionRoot - could not send interaction
+java.lang.NullPointerException: null
+	at org.cpswt.hla.InteractionRoot.createSuppliedDatamembers(InteractionRoot.java:1045) ~[RandNumGen-0.1.0-SNAPSHOT.jar:?]
+	at org.cpswt.hla.InteractionRoot.sendInteraction(InteractionRoot.java:1081) [RandNumGen-0.1.0-SNAPSHOT.jar:?]
+	at org.webgme.guest.simplecontroller.SimpleController.execute(SimpleController.java:142) [SimpleController-0.1.0-SNAPSHOT.jar:?]
+	at org.webgme.guest.simplecontroller.SimpleController.main(SimpleController.java:194) [SimpleController-0.1.0-SNAPSHOT.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at org.codehaus.mojo.exec.ExecJavaMojo$1.run(ExecJavaMojo.java:294) [exec-maven-plugin-1.5.0.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]

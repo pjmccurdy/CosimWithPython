@@ -1,0 +1,41 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building SimpleOptimizerV2_exec 0.1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+Downloading: http://cpswtng_archiva:8080/repository/internal/org/cpswt/fedmanager-host/0.6.0-SNAPSHOT/maven-metadata.xml
+[WARNING] Could not transfer metadata org.cpswt:fedmanager-host:0.6.0-SNAPSHOT/maven-metadata.xml from/to archiva.internal (http://cpswtng_archiva:8080/repository/internal/): Connect to cpswtng_archiva:8080 [cpswtng_archiva/127.0.0.1] failed: Connection refused (Connection refused)
+[WARNING] Failure to transfer org.cpswt:fedmanager-host:0.6.0-SNAPSHOT/maven-metadata.xml from http://cpswtng_archiva:8080/repository/internal/ was cached in the local repository, resolution will not be reattempted until the update interval of archiva.internal has elapsed or updates are forced. Original error: Could not transfer metadata org.cpswt:fedmanager-host:0.6.0-SNAPSHOT/maven-metadata.xml from/to archiva.internal (http://cpswtng_archiva:8080/repository/internal/): Connect to cpswtng_archiva:8080 [cpswtng_archiva/127.0.0.1] failed: Connection refused (Connection refused)
+Downloading: http://cpswtng_archiva:8080/repository/internal/org/cpswt/cpswt-core/0.6.0-SNAPSHOT/maven-metadata.xml
+[WARNING] Could not transfer metadata org.cpswt:cpswt-core:0.6.0-SNAPSHOT/maven-metadata.xml from/to archiva.internal (http://cpswtng_archiva:8080/repository/internal/): Connect to cpswtng_archiva:8080 [cpswtng_archiva/127.0.0.1] failed: Connection refused (Connection refused)
+[INFO] 
+[INFO] --- exec-maven-plugin:1.5.0:java (default-cli) @ SimpleOptimizerV2_exec ---
+13:00:05.186 [org.cpswt.host.FederationManagerHostApp.main()] INFO  org.cpswt.hla.FederationManager - No COA definitions were provided!
+13:00:05.192 [org.cpswt.host.FederationManagerHostApp.main()] INFO  org.cpswt.hla.FederationManager - No COA selections were provided!
+13:00:05.193 [org.cpswt.host.FederationManagerHostApp.main()] INFO  org.cpswt.hla.FederationManager - No specific COA-selection was specified for execution!
+13:00:05.195 [org.cpswt.host.FederationManagerHostApp.main()] INFO  org.cpswt.hla.FederationManager - No COAs are used in this experiment.
+
+-------------------------------------------------------------------
+GMS: address=vagrant-7736, cluster=SimpleOptimizerV21, physical address=172.16.119.10:52889
+-------------------------------------------------------------------
+13:00:15.571 [org.cpswt.host.FederationManagerHostApp.main()] INFO  org.cpswt.host.FederationManagerHostApp - Server online at 0.0.0.0:8083 ...
+13:00:37.499 [Thread-3] INFO  org.cpswt.hla.FederationManager - Current_time = 0.0 and step = 1.0 and requested_time = 1.0
+13:00:38.509 [Thread-3] INFO  org.cpswt.hla.FederationManager - Current_time = 1.0 and step = 1.0 and requested_time = 2.0
+13:00:39.511 [Thread-3] INFO  org.cpswt.hla.FederationManager - Current_time = 2.0 and step = 1.0 and requested_time = 3.0
+13:00:40.519 [Thread-3] INFO  org.cpswt.hla.FederationManager - Current_time = 3.0 and step = 1.0 and requested_time = 4.0
+13:00:41.522 [Thread-3] INFO  org.cpswt.hla.FederationManager - Current_time = 4.0 and step = 1.0 and requested_time = 5.0
+13:00:42.534 [Thread-3] INFO  org.cpswt.hla.FederationManager - Current_time = 5.0 and step = 1.0 and requested_time = 6.0
+13:00:43.550 [Thread-3] INFO  org.cpswt.hla.FederationManager - Current_time = 6.0 and step = 1.0 and requested_time = 7.0
+13:00:44.574 [Thread-3] INFO  org.cpswt.hla.FederationManager - Current_time = 7.0 and step = 1.0 and requested_time = 8.0
+13:00:45.585 [Thread-3] INFO  org.cpswt.hla.FederationManager - Current_time = 8.0 and step = 1.0 and requested_time = 9.0
+13:00:46.615 [Thread-3] INFO  org.cpswt.hla.FederationManager - Current_time = 9.0 and step = 1.0 and requested_time = 10.0
+13:00:47.636 [Thread-3] INFO  org.cpswt.hla.FederationManager - Federation manager current time = 10.0
+13:00:47.639 [Thread-3] INFO  org.cpswt.hla.FederationManager - Current_time = 10.0 and step = 1.0 and requested_time = 11.0
+13:00:48.660 [Thread-3] INFO  org.cpswt.hla.FederationManager - Current_time = 11.0 and step = 1.0 and requested_time = 12.0
+13:00:49.688 [Thread-3] INFO  org.cpswt.hla.FederationManager - Current_time = 12.0 and step = 1.0 and requested_time = 13.0
+13:00:50.719 [Thread-3] INFO  org.cpswt.hla.FederationManager - Current_time = 13.0 and step = 1.0 and requested_time = 14.0
+13:00:51.744 [Thread-3] INFO  org.cpswt.hla.FederationManager - Current_time = 14.0 and step = 1.0 and requested_time = 15.0
+13:00:52.765 [Thread-3] INFO  org.cpswt.hla.FederationManager - Waiting for "RandNumGen-888275d3-20ca-4cd8-bbfb-3e0e98a732e8" federate to resign ...
+13:00:52.767 [Thread-3] INFO  org.cpswt.hla.FederationManager - Waiting for "SimpleController-50203d4a-033d-4729-a181-aa7f8b062f4a" federate to resign ...
+13:00:52.767 [Thread-3] INFO  org.cpswt.hla.FederationManager - Waiting for "ReadyToResign" ... 
+13:00:57.762 [Thread-4] INFO  org.cpswt.hla.FederationManager - Simulation terminated
