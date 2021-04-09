@@ -1,2 +1,2 @@
-# CosimWithPython
-Simple added tutorial with python adder
+# SimpleAdderWithPython
+Simple adder tutorial with python adder
